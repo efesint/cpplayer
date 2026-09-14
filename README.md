@@ -27,3 +27,6 @@ g++ cpplayer.cpp -o cpplayer -lsfml-audio -lsfml-system -DSFML_USE_PULSEAUDIO
 
 ## ..
 Development is frozen.
+
+# LICENSE 
+This product is released under the GNU General Public License v3.0
