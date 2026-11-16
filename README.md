@@ -25,8 +25,7 @@ sudo make install
 cpplayer
 ```
 
-Enter the path to an audio file when prompted.
+enter the path to an audio file when prompted.
 
 ## License
-
-GPL-3.0
+released under GPL-3.0
