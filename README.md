@@ -1,32 +1,32 @@
-# WARNING
-it's only 1.0,I wrote this in about an hour and will write a few more functions soon.
-please, use pipewire. 
+# cpplayer
 
-~~~
-_______  _____   _____         _______ __   __ _______  ______
-|       |_____] |_____] |      |_____|   |_/   |______ |_____/
-|_____  |       |       |_____ |     |    |    |______ |    |_
-~~~
-## Installation
-1. clone the repository
-~~~
-git clone https://github.com/Efesint/cpplayer
-~~~
-2. download the library
-~~~
-sudo apt-get install libsfml-dev
-~~~
-3. compile the cpplayer
-~~~
-g++ cpplayer.cpp -o cpplayer -lsfml-audio -lsfml-system -DSFML_USE_PULSEAUDIO
-~~~
-4. have fun
-~~~
-./cpplayer
-~~~
+Minimal CLI audio player (C++ / SFML). Only for Unix-like systems (Linux).
 
-## ..
-Development is frozen.
+![cpplayer](img/cpplayer.png)
 
-# LICENSE 
-This product is released under the GNU General Public License v3.0
+## Requirements
+
+- C++17 compiler
+- SFML 3 (`sfml-audio`, `sfml-system`)
+- Git
+
+## Install
+
+```sh
+git clone https://github.com/Efesint/cpplayer.git
+cd cpplayer
+make
+sudo make install
+```
+
+## Usage
+
+```sh
+cpplayer
+```
+
+Enter the path to an audio file when prompted.
+
+## License
+
+GPL-3.0
