@@ -17,6 +17,8 @@ C++17 compiler
 SFML 3 (`sfml-audio`, `sfml-system`)  
 Git
 
+</div>
+
 ## Install
 
 ```sh
@@ -37,5 +39,3 @@ Enter the path to an audio file when prompted.
 ## License
 
 Released under [GPL-3.0](LICENSE).
-
-</div>
